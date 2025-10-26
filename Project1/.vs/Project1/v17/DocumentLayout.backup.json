@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\CJU\\Documents\\GitHub\\programing2025class\\programing2025class\\Project1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{84FA5AAD-04C8-4BA9-B6B7-38ED8BC67C9D}|Project1\\Project1.vcxproj|C:\\Users\\CJU\\Documents\\GitHub\\programing2025class\\programing2025class\\Project1\\Project1\\22.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{84FA5AAD-04C8-4BA9-B6B7-38ED8BC67C9D}|Project1\\Project1.vcxproj|solutionrelative:Project1\\22.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "22.cpp",
+              "DocumentMoniker": "C:\\Users\\CJU\\Documents\\GitHub\\programing2025class\\programing2025class\\Project1\\Project1\\22.cpp",
+              "RelativeDocumentMoniker": "Project1\\22.cpp",
+              "ToolTip": "C:\\Users\\CJU\\Documents\\GitHub\\programing2025class\\programing2025class\\Project1\\Project1\\22.cpp*",
+              "RelativeToolTip": "Project1\\22.cpp*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-10-26T14:16:09.549Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
