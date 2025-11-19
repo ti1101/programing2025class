@@ -1,31 +1,34 @@
 #include <stdio.h>
 
-void calc_line(double* p1, double* p2, double* slope, double* bias) {
-    double x1 = p1[0];
-    double y1 = p1[1];
-    double x2 = p2[0];
-    double y2 = p2[1];
+void calc_line(double* ptA, double* ptB, double* outSlope, double* outBias) {
 
-    *slope = (y2 - y1) / (x2 - x1);
-    *bias = y1 - (*slope) * x1;
+    double ax = ptA[0];
+    double ay = ptA[1];
+    double bx = ptB[0];
+    double by = ptB[1];
+
+    *outSlope = (by - ay) / (bx - ax);
+    *outBias = ay - (*outSlope) * ax;
 }
 
 int main() {
-    double point1[2];
-    double point2[2];
-    double slope, bias;
+
+    double firstPoint[2];
+    double secondPoint[2];
+
+    double lineSlope, lineBias;
 
     printf("Input 1st point information:\n");
-    scanf_s("%lf %lf", &point1[0], &point1[1]);
+    scanf_s("%lf %lf", &firstPoint[0], &firstPoint[1]);
 
-    printf("Input 2nd point information:\n");
-    scanf_s("%lf %lf", &point2[0], &point2[1]);
+    printf("\nInput 2nd point information:\n");
+    scanf_s("%lf %lf", &secondPoint[0], &secondPoint[1]);
 
-    calc_line(point1, point2, &slope, &bias);
+    calc_line(firstPoint, secondPoint, &lineSlope, &lineBias);
 
     printf("\nCalculated Output, line equation:\n");
-    printf("slope: %.4lf\n", slope);
-    printf("bias: %.4lf\n", bias);
+    printf("slope: %.4lf\n", lineSlope);
+    printf("bias: %.4lf\n", lineBias);
 
     return 0;
 }
